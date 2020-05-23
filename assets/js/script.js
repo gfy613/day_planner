@@ -89,14 +89,17 @@ for (i=0; i < plannerArray.length; i++){
     }
     // create save button
     var saveBtn = $("<button>");
-    saveBtn.addClass("col-md-1 saveBtn");
+    saveBtn.addClass("col-md-1 saveBtn far fa-save");
     saveBtn.attr("value",i)
-    saveBtn.text("save");
+    // saveBtn.text("save");
     $("#planner").append(rowEl);
     rowEl.append(timeBlockEl);
     rowEl.append(task);
     rowEl.append(saveBtn);
 }
+
+
+
 
 }
 
